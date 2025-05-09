@@ -39,23 +39,17 @@ winget install "FFmpeg (Essentials Build)"
 ### 3. Add FFmpeg to PATH
 - Find installation path 
 ```bash
-C:\Users\Francis Reid\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.1.1-essentials_build\bin
-
-To add to PATH:
-Press Win + S, search "Environment Variables"
-
-Click "Edit the system environment variables"
-
-Click Environment Variables...
-
-Under System variables, find and edit Path
-
-Click New, paste the path above
-
-Click OK on all windows
-
-Restart VS Code or your terminal
+e.g.
+C:\Users\[user]\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-7.1.1-essentials_build\bin
 ```
+To add to PATH:
+1. Press Win + S, search "Environment Variables"
+2. Click "Edit the system environment variables"
+3. Click Environment Variables...
+4. Under System variables, find and edit Path
+5. Click New, paste the path above
+6. Click OK on all windows
+7. Restart VS Code or your terminal
 
 ### 4. Test FFMPEG
 To make sure FFmpeg is installed, run:
