@@ -29,10 +29,12 @@ Open a terminal or command prompt and run:
 
 ```bash
 pip install -U yt-dlp
+```
 
 ### 2. Install ffmpeg
 ```bash
 winget install "FFmpeg (Essentials Build)"
+```
 
 ### 3. Add FFmpeg to PATH
 - Find installation path 
@@ -53,11 +55,13 @@ Click New, paste the path above
 Click OK on all windows
 
 Restart VS Code or your terminal
+```
 
 ### 4. Test FFMPEG
 To make sure FFmpeg is installed, run:
 ```bash
 ffmpeg -version
+```
 
 ## !! IMPORTANT !!
 - Change download_dir to your desired directory folder
