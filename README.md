@@ -1,4 +1,4 @@
-# 🎥 YouTube Video Downloader (MP4 - Highest Quality)
+# 🎥 Any Video Downloader (MP4 - Highest Quality)
 
 This Python script uses [`yt_dlp`](https://github.com/yt-dlp/yt-dlp) to download YouTube (or other supported) videos in the **highest quality** available (video + audio merged into a single `.mp4` file).
 
